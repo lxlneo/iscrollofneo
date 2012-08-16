@@ -20,6 +20,7 @@ var m = Math,
 
 		return false;
 	})(),
+    //拼装 字符串 组装类似 -webkit-tansfrom之类的css 引擎
 	cssVendor = vendor ? '-' + vendor.toLowerCase() + '-' : '',
 
 	// Style properties
